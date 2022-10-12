@@ -151,6 +151,7 @@ export function calculate(input1, input2, operator) {
     case "/":
       if (input2) {
         calculation = parseFloat(input1) / parseFloat(input2);
+        return calculation;
       }
       if (input2 === "0") {
         calculation = "Maths Error";
