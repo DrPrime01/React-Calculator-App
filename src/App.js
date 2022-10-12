@@ -50,9 +50,12 @@ function App() {
       ) {
         setCalculationInput(calculationInput + btn.textContent);
       }
-    } 
-    else if (btn.classList.contains("equals")) {
-      const result = calculate(firstInput, thirdInput, secondInput)
+    } else if (btn.classList.contains("brac")) {
+      return;
+    } else if (btn.classList.contains("plus-minus")) {
+      return;
+    } else if (btn.classList.contains("equals")) {
+      const result = calculate(firstInput, thirdInput, secondInput);
       setResultInput(result);
     } else {
       if (calculationInput === "0") {

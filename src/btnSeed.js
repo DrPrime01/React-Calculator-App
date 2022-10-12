@@ -10,7 +10,7 @@ export const arrOfBtnRows = [
       },
       {
         id: "brac",
-        className: "btns green-texts operator-id",
+        className: "btns green-texts brac",
         content: "( )",
       },
       {
@@ -109,7 +109,7 @@ export const arrOfBtnRows = [
     children: [
       {
         id: "plus-minus",
-        className: "btns operator",
+        className: "btns plus-minus",
         content: "+/-",
       },
       {
